@@ -52,7 +52,7 @@ function navbar2() {
         <Image className='h-10 inline w-12' src={logo} alt="logo" />
         </div>
         <div className='font-signature text-4xl text-bold my-10'>
-          <p>Villa College</p>
+          <p>Reimagined VC site</p>
         </div>
 
         <ul className='hidden md:flex'>

@@ -2,10 +2,6 @@ import { useState } from "react"
 import React from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-import p1 from '../public/assets/uni1.png'
-import p2 from '../public/assets/uni2.png'
-import p3 from '../public/assets/uni3.png'
-
 function slideshow() {
     const slides = [
         {
