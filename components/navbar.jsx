@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaBars, FaTimes} from "react-icons/fa"
-import { HiOutlineMail } from 'react-icons/hi'
+import { RiCustomerService2Fill} from 'react-icons/ri'
 import {AiOutlineLogin} from 'react-icons/ai'
 import { useState } from 'react';
 import {Link} from 'react-scroll'
 import Image from 'next/image';
 import logo from '../public/assets/logo.png'
+
 
 
 function navbar2() {
@@ -50,6 +51,9 @@ function navbar2() {
         <div className='text-2xl font-sans cursor-pointer'>
         <Image className='h-10 inline w-12' src={logo} alt="logo" />
         </div>
+        <div className='font-signature text-4xl text-bold my-10'>
+          <p>Villa College</p>
+        </div>
 
         <ul className='hidden md:flex'>
         {links.map(({id, link})=> (
@@ -90,12 +94,12 @@ function navbar2() {
               rel='noreferrer'
               className='flex justify-between items-center w-full text-white'>
                   <>
-                  Contact us? <HiOutlineMail size={30} />
+                  Contact us? <RiCustomerService2Fill size={30} />
                   </>
               </a>
           </li>
           <li className='flex justify-between items-centcker w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] bg-cyan-300 hover:rounded-md duration-300'>
-              <a href=''
+              <a href='/forms'
 
               rel='noreferrer'
               className='flex justify-between items-center w-full text-white'>
